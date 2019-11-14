@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东侧边菜单</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="all" class="wrap">
+        <div id="dul">
+            <ul>
+                <li data-id="a">服装</li>
+                <li data-id="b">手机</li>
+                <li data-id="a">服装</li>
+                <li data-id="b">手机</li>
+            </ul>
+        </div>
+        <div id="subMenu" class="none">
+            <!-- 子菜单a -->
+            <div id="a" class="none sub_content">
+                <dl>
+                    <dt><a href="#">运动<i>&gt;</i></a></dt>
+                    <dd>
+                        <a href="#">阿迪达斯</a>
+                        <a href="#">耐克</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">女装<i>&gt;</i></a></dt>
+                    <dd>
+                        <a href="#">LV</a>
+                        <a href="#">Coach</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <!-- 子菜单b -->
+            <div id="b" class="none sub_content">
+                <dl>
+                    <dt><a href="#">国产手机<i>&gt;</i></a></dt>
+                    <dd>
+                        <a href="#">小米</a>
+                        <a href="#">华为</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">进口手机<i>&gt;</i></a></dt>
+                    <dd>
+                        <a href="#">苹果</a>
+                        <a href="#">三星</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
